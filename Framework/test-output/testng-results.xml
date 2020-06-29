@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and test getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting done test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and getting application redy]]>
+    </line>
+    <line>
+      <![CDATA[Browser and applicaionis up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-06-25T13:44:15 IST" name="Suite" finished-at="2020-06-25T13:45:39 IST" duration-ms="83919">
+    <groups>
+    </groups>
+    <test started-at="2020-06-25T13:44:15 IST" name="Test" finished-at="2020-06-25T13:45:39 IST" duration-ms="83919">
+      <class name="com.learnauto.testcases.LogInTestCRM">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.learnauto.testcases.LogInTestCRM@6dbb137d]" started-at="2020-06-25T13:44:13 IST" name="setUp" finished-at="2020-06-25T13:44:15 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and test getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting done test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.learnauto.testcases.LogInTestCRM@6dbb137d]" started-at="2020-06-25T13:44:15 IST" name="beforeClass" finished-at="2020-06-25T13:45:17 IST" duration-ms="61425" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and getting application redy]]>
+            </line>
+            <line>
+              <![CDATA[Browser and applicaionis up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="logInApp()[pri:0, instance:com.learnauto.testcases.LogInTestCRM@6dbb137d]" started-at="2020-06-25T13:45:17 IST" name="logInApp" finished-at="2020-06-25T13:45:25 IST" duration-ms="8093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInApp -->
+        <test-method is-config="true" signature="TearDownMetod(org.testng.ITestResult)[pri:0, instance:com.learnauto.testcases.LogInTestCRM@6dbb137d]" started-at="2020-06-25T13:45:25 IST" name="TearDownMetod" finished-at="2020-06-25T13:45:29 IST" duration-ms="3889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInApp status=SUCCESS method=LogInTestCRM.logInApp()[pri:0, instance:com.learnauto.testcases.LogInTestCRM@6dbb137d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TearDownMetod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.learnauto.testcases.LogInTestCRM@6dbb137d]" started-at="2020-06-25T13:45:29 IST" name="afterClass" finished-at="2020-06-25T13:45:39 IST" duration-ms="10309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.learnauto.testcases.LogInTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
